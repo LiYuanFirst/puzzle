@@ -1,0 +1,33 @@
+*{padding: 0;margin: 0;}
+header{
+	text-align: center;
+	margin-top: 40px;
+}
+.newgameButton{
+	text-decoration: none;
+	display: inline-block;
+	padding: 2px 6px;
+	background: goldenrod;
+	border-radius: 4px;
+	color: #fff;}
+.grid-container{
+	width: 300px;
+	height: 300px;
+	margin:50px auto;
+	background: #bbada0;
+	position: relative;
+}
+.grid-cell{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background: url('../img/bg.jpg');
+	position: absolute;
+	/*transition: all 0.5s ease 0s;*/
+}
+#grid-cell-0-0{
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-image: url(../img/veer-155451070.jpg);
+	background-position: 0 0;
+}
